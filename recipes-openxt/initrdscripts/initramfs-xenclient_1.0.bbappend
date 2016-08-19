@@ -1,2 +1,2 @@
 PR .= ".14"
-FILESEXTRAPATHS := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS_prepend = "${THISDIR}/${PN}:"
